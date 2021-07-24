@@ -158,7 +158,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/Trolldcompany")]
+                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/DKBOTZ")]
             ])
 
             await query.message.edit_text(
@@ -173,7 +173,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/n_a_c_bot_developers")]
+                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/DK_BOTZ")]
             ])
 
             await query.message.edit_text(
@@ -188,7 +188,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data")],
-                [InlineKeyboardButton("SOURCE CODE", url="https://github.com/nikhileashy/dcFilter")]
+                [InlineKeyboardButton("YOU WANT OWN THIS BOT CONTACT", url="https://t.me/DKBOTZHELP")]
             ])
 
             await query.message.edit_text(
